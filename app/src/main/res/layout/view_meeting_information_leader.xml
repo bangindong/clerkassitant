@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvBoss"
+            android:text="@string/meeting_boss"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_normal"/>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgBoss"
+            android:layout_below="@+id/tvBoss"
+            android:layout_width="@dimen/size_leader_meeting_avar"
+            android:layout_height="@dimen/size_leader_meeting_avar"
+            android:contentDescription="@string/meeting_avar_boss"
+            android:layout_marginBottom="@dimen/padding_normal"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/imgBoss"
+            android:id="@+id/tvNameBoss"
+            android:text="tên người"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvClerk"
+            android:text="@string/meeting_clerk"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_normal"/>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgClerk"
+            android:layout_below="@+id/tvClerk"
+            android:layout_width="@dimen/size_leader_meeting_avar"
+            android:layout_height="@dimen/size_leader_meeting_avar"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:contentDescription="@string/meeting_avar_clerk" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/imgClerk"
+            android:id="@+id/tvNameAssitant"
+            android:text="tên người"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

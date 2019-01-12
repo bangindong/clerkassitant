@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:text="dsfsf"
+        android:textSize="@dimen/text_size_big"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/txvHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:id="@+id/txvInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvHello"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:text="@string/record_tx_instruction" />
+
+    <TextView
+        android:id="@+id/txvExampleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRecord"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/padding_text_to_record_button"
+        android:text="Đọc đi nào"
+        android:background="@drawable/bg_tx_read_to_record"
+        android:textSize="@dimen/text_size_big"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="@dimen/size_button_record"
+        android:layout_height="@dimen/size_button_record"
+        android:layout_above="@+id/lnButtonRecord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding_large"
+        android:background="@drawable/background_button_record" />
+
+    <LinearLayout
+        android:id="@+id/lnButtonRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_record_file"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding_record_file_to_bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord1"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_1"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord2"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_2"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord3"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_3"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord4"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_4"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord5"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_5"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/fileRecord6"
+            android:layout_width="@dimen/size_record_file"
+            android:layout_height="@dimen/size_record_file"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/button_record_file"
+            android:contentDescription="@string/record_record_file_6"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+</RelativeLayout>

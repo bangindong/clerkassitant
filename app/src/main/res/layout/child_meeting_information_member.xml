@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgAvaMember"
+        android:layout_width="@dimen/size_img_avar_member"
+        android:layout_height="@dimen/size_img_avar_member"
+        android:contentDescription="@string/meeting_avar_members"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tvNameMember"
+        android:layout_marginTop="@dimen/padding_giant"
+        android:layout_width="wrap_content"
+        android:text="sdsdsdssdssdsdsdsd"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+</LinearLayout>

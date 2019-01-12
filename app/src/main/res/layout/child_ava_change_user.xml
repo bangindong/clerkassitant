@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_normal">
+    <ImageView
+        android:id="@+id/imgAvaChoice"
+        android:layout_width="@dimen/size_img_mess_ava_choose"
+        android:layout_height="@dimen/size_img_mess_ava_choose"
+        android:contentDescription="@string/ava_choice" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_toRightOf="@+id/imgAvaChoice"
+        android:text="dfdfd"
+        android:layout_toEndOf="@+id/imgAvaChoice"
+        android:layout_marginStart="@dimen/padding_normal" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:layout_marginStart="60dp"
+        android:background="@drawable/background_text_login"
+        android:layout_centerInParent="true"
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_hint_name"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:inputType="text"
+        tools:ignore="LabelFor"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:background="@drawable/background_text_login"
+        android:layout_marginStart="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/edtName"
+        android:id="@+id/edtPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:hint="@string/login_hint_password"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor"
+        android:layout_marginLeft="60dp" />
+
+    <Button
+        android:background="@drawable/background_button_login"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/edtPassWord"
+        android:id="@+id/btnLogin"
+        android:textSize="@dimen/text_size_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btn_login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:minHeight="0dp"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:paddingTop="@dimen/padding_normal"
+        android:paddingBottom="@dimen/padding_normal"
+        android:background="@null"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textSize="@dimen/text_size_large"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnLogin"
+        android:id="@+id/btnForgotPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/login_forgot_password"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:hint="@string/login_hint_password"
+        tools:ignore="LabelFor"
+        />
+
+</RelativeLayout>

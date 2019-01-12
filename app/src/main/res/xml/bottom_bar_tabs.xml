@@ -1,0 +1,16 @@
+<tabs>
+    <tab
+        id="@+id/icon_button_employee"
+        icon="@drawable/icon_button_employee"
+        title=""/>
+
+    <tab
+        id="@+id/icon_button_conversation"
+        icon="@drawable/icon_button_conversation"
+        title=""/>
+
+    <tab
+        id="@+id/icon_button_home"
+        icon="@drawable/icon_button_home"
+        title=""/>
+</tabs>

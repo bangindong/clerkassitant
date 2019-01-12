@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Clerk_Assitant</string>
+    <string name="img_room">img_room</string>
+    <string name="img_employee">img_employee</string>
+    <string name="img_avar">img_avar</string>
+
+    <!--LoginScreen-->
+    <string name="login_hint_name">username</string>
+    <string name="login_hint_password">password</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_forgot_password"><u>forgot password</u></string>
+    <string name="login_wrong_name_or_pass_world">bạn nhập sai tên hoặc mật khẩu</string>
+
+    <!--RecordScreen-->
+    <string name="record_record_file_1">record_file_1</string>
+    <string name="record_record_file_2">record_file_2</string>
+    <string name="record_record_file_3">record_file_3</string>
+    <string name="record_record_file_4">record_file_4</string>
+    <string name="record_record_file_5">record_file_5</string>
+    <string name="record_record_file_6">record_file_6</string>
+    <string name="record_tx_instruction">Bạn chưa có file ghi âm!!\n
+        Hãy ghi âm để chúng tôi biết bạn là ai,\n
+        Đọc theo đoạn chữ phía dưới để ghi âm
+    </string>
+    <string name="record_tv_hello" >Xin chào, %1$s !</string>
+    
+    <!--Profile Screen-->
+    <string name="profile_information">Thông tin</string>
+    <string name="profile_name">Họ tên</string>
+    <string name="profile_phone_number">Số điện thoại</string>
+    <string name="profile_mail">Mail</string>
+    <string name="profile_position">Vị trí</string>
+    <string name="profile_office">Chức vụ</string>
+    <string name="profile_file_record">File ghi âm</string>
+    <string name="profile_birthday">Ngày sinh</string>
+    <string name="profile_setting">Cài đặt</string>
+    <string name="profile_logout">Đăng xuất</string>
+
+    <!--Meeting Screen-->
+    <string name="meeting_boss">Điều hành</string>
+    <string name="meeting_information">Thông tin cuộc họp</string>
+    <string name="meeting_conversation_information">Nội dung cuộc họp</string>
+    <string name="meeting_avar_boss">meeting_avar_boss</string>
+    <string name="meeting_clerk">Thư ký</string>
+    <string name="meeting_avar_clerk">meeting_avar_clerk</string>
+    <string name="meeting_member">Thành viên ( %1$s )</string>
+    <string name="meeting_avar_members">meeting_avar_members</string>
+    <string name="ava_mess_noise">ava_mess_noise</string>
+    <string name="meeting_message_noise">Tiếng ồn</string>
+    <string name="meeting_message_silent">Khoảng lặng</string>
+    <string name="meeting_message_group">Nhóm</string>
+    <string name="button_edit_mess">button_edit_mess</string>
+    <string name="choose_and_end">chọn</string>
+    <string name="add_and_edit_stop_choose">Dừng</string>
+    <string name="add_and_edit_choose">Chọn</string>
+    <string name="noise">noise</string>
+    <string name="silent">silent</string>
+    <string name="tv_write_mess_here">Viết lời thoại vào đây</string>
+    <string name="ava_choice">ava_choice</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/padding_giant"
+    android:paddingLeft="@dimen/padding_giant"
+    android:paddingRight="@dimen/padding_giant">
+
+    <TextView
+        android:layout_marginBottom="@dimen/padding_giant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tên cuộc họp"
+        android:textSize="@dimen/text_size_big"
+        android:id="@+id/tvNameMeeting"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvContentMeeting"
+        android:layout_marginLeft="@dimen/padding_giant"
+        android:layout_marginRight="@dimen/padding_giant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Nội dung cuộc họp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/padding_normal"
+        />
+    <include
+        layout="@layout/view_meeting_information_leader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <include
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:layout_marginTop="@dimen/padding_large"
+        android:layout_marginBottom="@dimen/padding_large"
+        layout="@layout/view_meeting_information_member"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:id="@+id/tvTime"
+        android:textStyle="bold"
+        android:text="10:10:10 22/12/1012 - 20:10:10 23/12/2012"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

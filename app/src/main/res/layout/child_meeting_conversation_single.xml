@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/size_img_mess_ava"
+        android:layout_height="@dimen/size_img_mess_ava"
+        android:id="@+id/imgAvaMessSingle"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="@dimen/padding_normal"
+        android:contentDescription="@string/ava_mess_noise" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvNameMess"
+            android:text="Tên người"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/edtMess"
+            android:layout_below="@+id/tvNameMess"
+            android:text="dfdsfs"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvTimeSingleMess"
+            android:layout_below="@+id/edtMess"
+            android:text="thời gian"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

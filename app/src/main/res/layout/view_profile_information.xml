@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_text_title_profile"
+        android:padding="@dimen/padding_giant"
+        android:text="@string/profile_information" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_name"
+             />
+
+        <TextView
+            android:gravity="end"
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_phone_number"
+             />
+
+        <TextView
+            android:id="@+id/tvPhoneNumber"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_mail"
+             />
+
+        <TextView
+            android:gravity="end"
+            android:id="@+id/tvMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_position"
+             />
+
+        <TextView
+            android:gravity="end"
+            android:id="@+id/tvPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_office"
+             />
+
+        <TextView
+            android:gravity="end"
+            android:id="@+id/tvOffice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height           ="wrap_content"
+            android:text="@string/profile_file_record"
+            />
+
+        <LinearLayout
+            android:gravity="end"
+            android:id="@+id/lnButtonRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord1"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_1"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord2"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_2"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord3"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_3"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord4"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_4"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord5"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_5"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/fileRecord6"
+                android:layout_width="@dimen/size_record_file_profile"
+                android:layout_height="@dimen/size_record_file_profile"
+                android:layout_marginLeft="@dimen/padding_tiny"
+                android:layout_marginRight="@dimen/padding_tiny"
+                android:background="@drawable/button_record_file"
+                android:contentDescription="@string/record_record_file_6"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_birthday"
+             />
+
+        <TextView
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsfsdfsdf"
+             />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <nguyengquanghuy.mssv20141973.clerk_assitant.customviews.CustomSeekbar
+        android:id="@+id/sbAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_large"
+        android:thumb="@drawable/seekbar_drawable_thumb_unchose" />
+
+    <include
+        layout="@layout/view_action_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcvMesses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_giant"/>
+
+</LinearLayout>

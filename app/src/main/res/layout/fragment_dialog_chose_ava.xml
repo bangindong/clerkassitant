@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/width_view_choose_ava"
+    android:layout_height="@dimen/height_view_choose_ava"
+    android:background="@color/white"
+    android:id="@+id/rlvView">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcvAva"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpgMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:bb_badgeBackgroundColor="@color/colorPrimary"
+        android:background="@color/colorPrimary"
+        app:bb_activeTabColor="@color/yellow"
+        app:bb_behavior="iconsOnly"
+        app:bb_inActiveTabColor="@color/white"
+        app:bb_tabXmlResource="@xml/bottom_bar_tabs" />
+</LinearLayout>

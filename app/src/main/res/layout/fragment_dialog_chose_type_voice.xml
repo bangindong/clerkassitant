@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.CardView
+        app:contentPadding="@dimen/padding_giant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btnPlayPause"
+                android:src="@drawable/icon_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:layout_gravity="center_vertical"
+                android:id="@+id/sbAudioDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnButtonChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/padding_gigantic"
+                android:layout_marginRight="@dimen/padding_gigantic">
+
+                <ImageButton
+                    android:id="@+id/btnChoiceGroup"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_choice_group"
+                    android:scaleType="centerInside"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/btnChoiceSingle"
+                    android:src="@drawable/icon_choice_single"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btnChoiceNoise"
+                    android:text="@string/noise"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_tiny"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btnChoiceSilent"
+                    android:textColor="@color/white"
+                    android:text="@string/silent"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_tiny"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <include
+                android:id="@+id/viewChoiceSingle"
+                android:visibility="gone"
+                layout="@layout/view_dialog_add_single_voice"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <include
+                android:visibility="gone"
+                android:id="@+id/viewChoiceGroup"
+                layout="@layout/view_dialog_add_group_voice"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <Button
+                android:text="Cancel"
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="OK"
+                android:id="@+id/btnOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

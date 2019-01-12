@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_normal">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_tiny">10sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
+    <dimen name="size_button_record">150dp</dimen>
+    <dimen name="size_record_file">40dp</dimen>
+    <dimen name="padding_text_to_record_button">30dp</dimen>
+    <dimen name="padding_record_file_to_bottom">30dp</dimen>
+    <dimen name="margin_view_room_to_top">40dp</dimen>
+    <dimen name="height_child_conversation">120dp</dimen>
+    <dimen name="padding_tiny">3dp</dimen>
+    <dimen name="height_img_employee">200dp</dimen>
+    <dimen name="width_img_employee">170dp</dimen>
+    <dimen name="radius_child_conversation">7dp</dimen>
+    <dimen name="padding_giant">15dp</dimen>
+    <dimen name="size_img_avar">150dp</dimen>
+    <dimen name="padding_gigantic">20dp</dimen>
+    <dimen name="size_record_file_profile">20dp</dimen>
+    <dimen name="size_leader_meeting_avar">100dp</dimen>
+    <dimen name="size_img_avar_member">80dp</dimen>
+    <dimen name="size_img_mess_ava">50dp</dimen>
+    <dimen name="size_img_mess_ava_choose">30dp</dimen>
+    <dimen name="height_button_audio">40dp</dimen>
+    <dimen name="height_dialog_choose_type_voice">300dp</dimen>
+    <dimen name="height_view_choose_ava">200dp</dimen>
+    <dimen name="width_view_choose_ava">250dp</dimen>
+</resources>

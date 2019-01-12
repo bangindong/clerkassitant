@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_text_title_profile"
+        android:padding="@dimen/padding_giant"
+        android:text="@string/profile_setting" />
+
+    <LinearLayout
+        android:id="@+id/lnLogOut"
+        android:layout_marginLeft="@dimen/padding_gigantic"
+        android:layout_marginRight="@dimen/padding_gigantic"
+        android:paddingTop="@dimen/padding_gigantic"
+        android:paddingBottom="@dimen/padding_gigantic"
+        android:background="@drawable/background_text_information_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_logout"
+            />
+    </LinearLayout>
+</LinearLayout>
